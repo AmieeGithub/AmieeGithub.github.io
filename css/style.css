@@ -330,12 +330,12 @@ body {
 
 
 /* PROJECTS SECTION: */
-.projects .content {
+.blogs .content {
     margin-top: 35px;
     width: 100%;
 }
 
-.projects .content .title {
+.blogs .content .title {
     font-family: monument;
     font-weight: 800;
     font-size: 25px;
@@ -346,7 +346,7 @@ body {
 
 }
 
-.projects .content .blog {
+.blogs .content .blog {
     font-family: monument;
     font-weight: 500;
     font-size: 15px;
