@@ -19,7 +19,7 @@
     
 </head>
 
-<body>
+<body oncontextmenu="return false">
     <div class="circle1 transtion"></div>
     <div class="circle2 transtion"></div>
     <div class="container">
@@ -118,6 +118,31 @@
 </body>
 <script src="https://kit.fontawesome.com/0fefc49e08.js" crossorigin="anonymous"></script>
 <script src="script/script.js"></script>
+    
+    <script>
+
+	document.onkeydown=function(e)
+    {
+		if(event.keycode = 123)
+		{
+			return false;
+		}
+
+		if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
+		{
+			return flase;
+		}
+
+		if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0))
+		{
+			return false;
+		}
+		if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
+		{
+			return false;
+		}
+	}
+</script>
 
 
 </html>
