@@ -18,7 +18,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #c587c1;
+    color: #d8ccd4;
 }
 
 body {
@@ -61,7 +61,8 @@ body {
     top: -13%;
     transform: translate(-50%, 0px);
     font-size: 90px;
-    color: #c587c1;
+    color: #d8ccd4;
+    text-shadow: 0 0 12px #7f757a;
     font-family: monument;
 }
 
@@ -89,7 +90,7 @@ body {
     top: 56%;
     left: 50%;
     transform: translate(73%, 0%);
-    background: linear-gradient(135deg, #c94b9459 -65%, #d678ce 85%);
+    background: linear-gradient(135deg, #7f757a -65%, #d8ccd4 85%);
     z-index: -1;
 }
 
@@ -108,7 +109,7 @@ body {
     top: 56%;
     left: 50%;
     transform: translate(-165%, -38%);
-    background: linear-gradient(80deg, #d678ce 0%, #c94b9459 200%);
+    background: linear-gradient(80deg, #7f757a 0%, #d8ccd4 200%);
     z-index: -1;
 }
 
@@ -161,8 +162,8 @@ body {
     font-weight: 800;
     font-size: 25px;
     letter-spacing: 5px;
-    color: #d678ce;
-    text-shadow: 0 0 12px #c94b9459;
+    color: #d8ccd4;
+    text-shadow: 0 0 12px #7f757a;
 
 
 }
@@ -249,7 +250,7 @@ body {
     display: inline-block;
     height: 50%;
     margin: 8px 0px;
-    background-color: rgb(117, 66, 87);
+    background-color: rgb(114, 82, 75);
     /* display: none; */
 }
 .button{
@@ -340,8 +341,8 @@ body {
     font-weight: 800;
     font-size: 25px;
     letter-spacing: 5px;
-    color: #d678ce;
-    text-shadow: 0 0 12px #c94b9459;
+    color: #d8ccd4;
+    text-shadow: 0 0 12px #7f757a;
     text-align: center;
 
 }
@@ -351,8 +352,8 @@ body {
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 5px;
-    color: #d678ce;
-    text-shadow: 0 0 12px #c94b9459;
+    color: #d8ccd4;
+    text-shadow: 0 0 12px #7f757a;
     text-align: center;
 
 }

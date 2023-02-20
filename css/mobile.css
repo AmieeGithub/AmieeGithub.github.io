@@ -67,7 +67,7 @@ body{
     height: 100%;
 }
 .pipe{
-    background-color: rgb(252, 189, 189);
+    background-color: #967969;
     transform: rotate(90deg);
     height: 4%;
 
