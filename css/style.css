@@ -18,7 +18,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #d8ccd4;
+    color: #e2c0ba;
+    text-shadow: black;
 }
 
 body {
@@ -56,13 +57,13 @@ body {
 
 .name {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     left: 50%;
-    top: -13%;
+    top: -16%;
     transform: translate(-50%, 0px);
-    font-size: 90px;
-    color: #d8ccd4;
-    text-shadow: 0 0 12px #7f757a;
+    font-size: 70px;
+    color: #dbc3c3;
+    text-shadow: 0 0 12px rgb(116, 88, 88);
     font-family: monument;
 }
 
@@ -90,7 +91,7 @@ body {
     top: 56%;
     left: 50%;
     transform: translate(73%, 0%);
-    background: linear-gradient(135deg, #7f757a -65%, #d8ccd4 85%);
+    background: linear-gradient(135deg, rgb(226, 97, 97) -65%, #dbc3c3 85%);
     z-index: -1;
 }
 
@@ -109,7 +110,7 @@ body {
     top: 56%;
     left: 50%;
     transform: translate(-165%, -38%);
-    background: linear-gradient(80deg, #7f757a 0%, #d8ccd4 200%);
+    background: linear-gradient(125deg,  #ddacac 200%, rgb(226, 97, 97) 142%);
     z-index: -1;
 }
 
@@ -141,7 +142,7 @@ body {
 }
 
 .image img {
-    margin: -114px -131px;
+    margin: -20px -131px;
     width: 160%;
     height: 110%;
     border-radius: 15px;
@@ -163,7 +164,7 @@ body {
     font-size: 25px;
     letter-spacing: 5px;
     color: #d8ccd4;
-    text-shadow: 0 0 12px #7f757a;
+    text-shadow: 0 0 12px #f0c4bc;
 
 
 }
@@ -182,6 +183,7 @@ body {
     padding-top: 20px;
     justify-content: space-between;
     height: 27%;
+    right: 10px
 }
 
 .links i {
@@ -190,7 +192,8 @@ body {
 
 .links .fa-xmark {
     position: relative;
-    top: 8%;
+    top: 1%;
+    right: 10px;
     font-size: 20px;
 }
 
@@ -218,8 +221,8 @@ body {
 }
 
 .icons ul {
-    text-align: center;
-    padding-bottom: 44px;
+    text-align: right;
+    padding-bottom: 14px;
     height: 100%;
 }
 
@@ -231,7 +234,7 @@ body {
     font-size: 36px;
     margin: 0px 20px;
     position: relative;
-    top: -2px;
+    right: 10;
 
     text-shadow: 0px 0px 0px black;
     transition-property: color, text-shadow;
@@ -275,7 +278,7 @@ body {
     display: inline;
     position: absolute;
     top: 50%;
-    right: 2%;
+    right: 5%;
     font-size: 25px;
 }
 
@@ -283,25 +286,25 @@ body {
     display: inline;
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 5%;
     font-size: 25px;
 }
 
 /* ICON HOVER ANIMATIONS */
-    /* @media(hover: hover) {
+    @media(hover: hover) {
         .fa-discord:hover {
-            color: #5865f2;
-            text-shadow: 0px 0px 10px #5865f26b;
+            color: rgb(151, 116, 108);
+            text-shadow: 0px 0px 10px hsla(0, 40%, 78%, 0.911);
         }
 
         .fa-instagram:hover {
-            color: #c32aa3;
-            text-shadow: 0px 0px 10px #c32aa280;
+            color: rgb(151, 116, 108);
+            text-shadow: 0px 0px 10px hsla(0, 40%, 78%, 0.911);
         }
 
         .fa-twitter:hover {
             color: #1da1f2;
-            text-shadow: 0px 0px 10px #1da0f281;      //Not in use
+            text-shadow: 0px 0px 10px #1da0f281; 
         }
 
         .fa-spotify:hover {
@@ -315,14 +318,14 @@ body {
         }
 
         .fa-youtube:hover {
-            color: #ff0000;
-            text-shadow: 0px 0px 10px #ff000071;
+            color: rgb(151, 116, 108);
+            text-shadow: 0px 0px 10px hsla(0, 40%, 78%, 0.911);
         }
 
-        .links a:hover {
-            color: #d678ce;
-        }
-    } */
+        /* .links a:hover {
+            color: rgb(151, 116, 108);;
+        } */
+    }
 
 
 
@@ -459,18 +462,18 @@ body {
 .boxtitle {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 10px;
     /* letter-spacing: 2px; */
     text-align: center;
     padding-bottom: 5px;
-    color: #ffdada;
+    color: #fff;
 }
 
 .btn {
     padding: 2px 8px;
     border: none;
     border-radius: 10px;
-    background-color: #C20000;
+    background-color: #ce9c9c;
     margin-top: 10px;
     opacity: 0;
     font-size: 12px;
@@ -478,7 +481,7 @@ body {
 }
 
 .btn:hover {
-    box-shadow: rgba(248, 76, 76, 0.562) 0px 0px 10px 0px;
+    box-shadow: #c29b9b 0px 0px 10px 0px;
 }
 
 .btn a {
