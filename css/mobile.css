@@ -1,0 +1,63 @@
+body{
+    background:url("../Images/mobilebg.svg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.container{
+    width: 315px;
+    height: 546px;
+    flex-direction: row-reverse;
+    top: 55%;
+}
+.circle1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,19%);
+}
+.circle2{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(19%,-108%);
+    width: 150px;
+    height: 150px;
+}
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.name{
+    font-size: 48px;
+
+}
+.mainbox{
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    margin: -137px -78px;
+    width: 94%;
+    height: 160%;
+}
+.content{
+    margin: 0px;
+    padding: 9px 20px;
+    width: 100%;
+    height: 65%;
+    padding-right: 32px;
+}
+.content .bio{
+    font-size: 13px;
+
+}
+.links{
+    font-size: 13px;
+    height: 23%;
+    padding-top: 10%;
+}
